@@ -6,6 +6,7 @@
 .ipad {
   display: inline-block;
   position: relative;
+
 }
 
 .iphone {
@@ -30,3 +31,19 @@
   position: absolute;
   top: 0;
   right: 0;
+}
+
+.ipad:hover .cuore,
+.iphone:hover .cuore,
+.cuffie:hover .cuore {
+  display: block;
+}
+
+.cuore {
+  font-size: 30px;
+  position: absolute;
+  bottom: 0;
+  left: calc((100% - 30px) / 2);
+  color: red;
+  display: none;
+}

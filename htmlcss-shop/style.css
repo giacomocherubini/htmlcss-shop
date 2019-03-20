@@ -1,0 +1,32 @@
+.oggetti1 {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.ipad {
+  display: inline-block;
+  position: relative;
+}
+
+.iphone {
+  display: inline-block;
+  position: relative;
+}
+
+.cuffie {
+  display: inline-block;
+  position: relative;
+}
+
+.sconto1 {
+  background-color: green;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.sconto2 {
+  background-color: red;
+  position: absolute;
+  top: 0;
+  right: 0;
